@@ -49,7 +49,13 @@ public class gitHubCommands {
       Note: bunu bi kere tanimliyoruz, sonrakilerde sadece git push kodu ile push yapmis oluyoruz
 
       NOTE: Create a branch and after commit checkout on master.
-            Create a remote branchàgit push -u ProjectName LocalBranchName:RemoteBranchName
+            Create a remote branch
+
+      git push -u ProjectName LocalBranchName:RemoteBranchName
+
+      mesela
+
+      git push -u ProjectGit5 master:QA
 
         git branch      --> sadece local branch adini gosterir terminalde
 
