@@ -1,7 +1,7 @@
 package Package1;
 
 public class gitHubCommands {
- /*
+  /*
     cd ../..   --> delete and go back to user
     cd         --> change directory
     ls         --> list (mac)
@@ -35,46 +35,30 @@ public class gitHubCommands {
       Note: bunu bi kere tanimliyoruz, sonrakilerde sadece git push kodu ile push yapmis oluyoruz
       NOTE: Create a branch and after commit checkout on master.
             Create a remote branch
-<<<<<<< HEAD
       git push -u ProjectName LocalBranchName:RemoteBranchName
       mesela
       git push -u ProjectGit5 master:QA
         git branch      --> sadece local branch adini gosterir terminalde
         git branch -a   --> bu kod ise tum branch leri yani intellij deki ve github da olanlari gosterir.
         git branch <nameOfBranch>    --> bu kod ile yeni bir branch olusturuyoruz, mesela "git branch QA"
-=======
-
-      git push -u ProjectName LocalBranchName:RemoteBranchName
-
-      mesela
-
-      git push -u ProjectGit5 master:QA
-
-        git branch      --> sadece local branch adini gosterir terminalde
-
-        git branch -a   --> bu kod ise tum branch leri yani intellij deki ve github da olanlari gosterir.
-
-        git branch <nameOfBranch>    --> bu kod ile yeni bir branch olusturuyoruz, mesela "git branch QA"
-
->>>>>>> QA
         git checkout <nameOfBranch>  --> bu kodu da gecis yapmak degistirmek istedigimiz branch icin kullaniyoruz
                                          mesela ana branch master idi, ve yenisine QA dedik ve bunu kullanmak istiyoruz, peki nasil?
                                          iste kodu: git checkout QA
 
-<<<<<<< HEAD
         git merge <yourBranchName --> merging the code from your branch to master branch
 
         Note: This is merging in the local not in the github.
               After merging in the local need to push to master, then your code will be in the git repo.
               Merge in the github need to use pull request.
-=======
 
 
+        Local Branch to Remote Branch Codes
+
+        git push ProjectGit5 HEAD:RemoteQA  --> use this code to push the upstream branch on the remote
+
+        git push ProjectGit5 HEAD     --> use this code to push to the branch of the same name on the remote
 
 
-
-
->>>>>>> QA
-
+        push, pull ve merge icin biraz daha practice yapmali albayim.
      */
 }
