@@ -44,7 +44,9 @@ public class gitHubCommands {
 
       connect local branch to remote branch --> connecting local branch to github branch
 
-      git push --set-upstream <nameOfPrpject> <nameOfBranch>
+      git push --set-upstream <nameOfProject> <nameOfBranch>
+
+      Note: bunu bi kere tanimliyoruz, sonrakilerde sadece git push kodu ile push yapmis oluyoruz
 
       NOTE: Create a branch and after commit checkout on master.
             Create a remote branchàgit push -u ProjectName LocalBranchName:RemoteBranchName
