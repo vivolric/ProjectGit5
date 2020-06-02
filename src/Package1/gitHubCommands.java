@@ -11,7 +11,7 @@ public class gitHubCommands {
     git add *   --> adding the files which you want to commit
                    * (star) is adding all files
                    bu ayrinti muhim albayim, * ile add arasinda bi space var
-
+    
     git commit - m 'your message' --> committing the changes for the
                                       pushing to code to github
 
