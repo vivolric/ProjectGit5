@@ -1,7 +1,7 @@
 package Package1;
 
 public class gitHubCommands {
-    /*
+   /*
     cd ../..   --> delete and go back to user
     cd         --> change directory
     ls         --> list (mac)
@@ -51,6 +51,15 @@ public class gitHubCommands {
       NOTE: Create a branch and after commit checkout on master.
             Create a remote branchàgit push -u ProjectName LocalBranchName:RemoteBranchName
 
+        git branch      --> sadece local branch adini gosterir terminalde
+
+        git branch -a   --> bu kod ise tum branch leri yani intellij deki ve github da olanlari gosterir.
+
+        git branch <nameOfBranch>    --> bu kod ile yeni bir branch olusturuyoruz, mesela "git branch QA"
+
+        git checkout <nameOfBranch>  --> bu kodu da gecis yapmak degistirmek istedigimiz branch icin kullaniyoruz
+                                         mesela ana branch master idi, ve yenisine QA dedik ve bunu kullanmak istiyoruz, peki nasil?
+                                         iste kodu: git checkout QA
 
 
 
