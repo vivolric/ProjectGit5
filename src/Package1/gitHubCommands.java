@@ -38,8 +38,12 @@ public class gitHubCommands {
 
 
       git branch    --> which branches are available
+                        diyelim git remote add den push edecegin yeri belirledin,
+                        sonra git branch yazarsin ve branch yerini ogrenmis olursun
+                        sonraki adim ise push etme kodunu yazmak, line 47deki
 
       connect local branch to remote branch --> connecting local branch to github branch
+
       git push --set-upstream <nameOfPrpject> <nameOfBranch>
 
       NOTE: Create a branch and after commit checkout on master.
