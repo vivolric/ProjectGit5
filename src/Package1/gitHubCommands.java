@@ -15,7 +15,8 @@ public class gitHubCommands {
 
      git add . --> adding the files which you want to commit
                    albayim bu sondaki nokta(.) mac icin, test ettim calisiyor
-
+                    arada bi bosluk birakiyoruz, unutmayalim albayim.
+                    
      git commit - m 'your message' --> committing the changes for the
                                       pushing to code to github
 
