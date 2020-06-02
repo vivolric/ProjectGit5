@@ -21,7 +21,24 @@ public class gitHubCommands {
                                       pushing to code to github
 
       git push      --> pushing the code to github
+
+
+      add remote --> connecting intellij project with git repo
+                     git remote add <ProjectName> <gitURL>
+                     
+      git remote add <name> <url> --> bura mohim albayim, push etmek icin kullandigimiz code bu
+                                      en basit haliyle bi code yazarak intellij e diyoruz ki bak
+                                      kodlari push edecegin reponun linki bu.
+
+      SAMPLE: git remote add ProjectGit5 https://github.com/vivolric/ProjectGit5.git
+
+      bunu yazip enter a basiyoruz, ve yine sadece 'git remote' yaziyoruz.
+      terminal bize github daki repo nun adini verecek.
+
+
+
       git branch    --> which branches are available
+
 
 
 
