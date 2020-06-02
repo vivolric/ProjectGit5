@@ -68,10 +68,11 @@ public class gitHubCommands {
                                          iste kodu: git checkout QA
 
 
+        Local Branch to Remote Branch
 
+        git push ProjectGit5 HEAD:RemoteQA  --> use this code to push the upstream branch on the remote
 
-
-
+        git push ProjectGit5 HEAD     --> use this code to push to the branch of the same name on the remote
 
 
      */
